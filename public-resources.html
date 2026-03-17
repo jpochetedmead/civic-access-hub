@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Public Resources | Civic Access Hub</title>
+
+<meta name="description" content="Community support resources including healthcare benefits, food banks, housing assistance, and mental health services.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+<h1>
+<i class="fa-solid fa-hands-helping"></i>
+<span data-en="Public Resources" data-es="Recursos Publicos">Public Resources</span>
+</h1>
+
+<p
+data-en="Benefits and community support programs"
+data-es="Beneficios y programas de apoyo comunitario">
+
+Benefits and community support programs
+
+</p>
+
+<br>
+
+<select id="langToggle" onchange="toggleLanguage()" aria-label="Language selector">
+
+<option value="en">English</option>
+<option value="es">Español</option>
+
+</select>
+
+<button onclick="toggleDarkMode()" aria-label="Toggle dark mode">🌙</button>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html"
+data-en="Home"
+data-es="Inicio">Home</a>
+
+<a href="civic-basics.html"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a>
+
+<a href="public-resources.html" class="active"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a>
+
+<a href="about.html"
+data-en="About"
+data-es="Acerca de">About</a>
+
+</nav>
+
+
+
+<main>
+
+
+
+<button class="print-btn" onclick="window.print()"
+data-en="Print Resource Guide"
+data-es="Imprimir guia de recursos">
+
+Print Resource Guide
+
+</button>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<span
+data-en="Benefits & Healthcare"
+data-es="Beneficios y salud">
+
+Benefits & Healthcare
+
+</span>
+
+</h2>
+
+<p
+data-en="Benefits.gov helps people find government assistance programs including healthcare services, financial aid, disability benefits, and other public support programs."
+data-es="Benefits.gov ayuda a las personas a encontrar programas de asistencia gubernamental incluyendo servicios de salud, ayuda financiera y beneficios por discapacidad.">
+
+Benefits.gov helps people find government assistance programs including healthcare services, financial aid, disability benefits, and other public support programs.
+
+</p>
+
+<a href="https://www.benefits.gov"
+target="_blank"
+rel="noopener"
+data-en="Explore Benefits.gov"
+data-es="Explorar Benefits.gov">
+
+Explore Benefits.gov
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-bowl-food"></i>
+
+<span
+data-en="Food Banks"
+data-es="Bancos de comida">
+
+Food Banks
+
+</span>
+
+</h2>
+
+<p
+data-en="Food banks provide free groceries and meals for individuals and families experiencing food insecurity."
+data-es="Los bancos de alimentos proporcionan comida gratuita a personas y familias que enfrentan inseguridad alimentaria.">
+
+Food banks provide free groceries and meals for individuals and families experiencing food insecurity.
+
+</p>
+
+<a href="https://www.feedingamerica.org/find-your-local-foodbank"
+target="_blank"
+rel="noopener"
+data-en="Find a Local Food Bank"
+data-es="Encontrar un banco de comida cercano">
+
+Find a Local Food Bank
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-house"></i>
+
+<span
+data-en="Housing Assistance"
+data-es="Asistencia de vivienda">
+
+Housing Assistance
+
+</span>
+
+</h2>
+
+<p
+data-en="Housing assistance programs help families find affordable housing, rental assistance, and support programs."
+data-es="Los programas de asistencia de vivienda ayudan a las familias a encontrar vivienda asequible y asistencia para el alquiler.">
+
+Housing assistance programs help families find affordable housing, rental assistance, and support programs.
+
+</p>
+
+<a href="https://www.hud.gov/topics/rental_assistance"
+target="_blank"
+rel="noopener"
+data-en="HUD Rental Assistance Programs"
+data-es="Programas de asistencia de alquiler HUD">
+
+HUD Rental Assistance Programs
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-brain"></i>
+
+<span
+data-en="Mental Health Support"
+data-es="Apoyo de salud mental">
+
+Mental Health Support
+
+</span>
+
+</h2>
+
+<p
+data-en="Mental health services provide counseling, treatment programs, and community support resources."
+data-es="Los servicios de salud mental proporcionan consejeria, tratamiento y recursos comunitarios de apoyo.">
+
+Mental health services provide counseling, treatment programs, and community support resources.
+
+</p>
+
+<a href="https://www.samhsa.gov/find-help"
+target="_blank"
+rel="noopener"
+data-en="Find Mental Health Services"
+data-es="Encontrar servicios de salud mental">
+
+Find Mental Health Services
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-phone"></i>
+
+<span
+data-en="Crisis Support"
+data-es="Apoyo en crisis">
+
+Crisis Support
+
+</span>
+
+</h2>
+
+<p
+data-en="The 988 Suicide & Crisis Lifeline provides 24/7 confidential support for people experiencing emotional distress or mental health crises."
+data-es="La linea 988 ofrece apoyo confidencial las 24 horas para personas que enfrentan crisis emocionales o de salud mental.">
+
+The 988 Suicide & Crisis Lifeline provides 24/7 confidential support for people experiencing emotional distress or mental health crises.
+
+</p>
+
+<a href="https://988lifeline.org"
+target="_blank"
+rel="noopener"
+data-en="988 Suicide & Crisis Lifeline"
+data-es="Linea 988 de crisis y suicidio">
+
+988 Suicide & Crisis Lifeline
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-map-location-dot"></i>
+
+<span
+data-en="Find Food Banks Near You"
+data-es="Encuentra bancos de comida cerca de ti">
+
+Find Food Banks Near You
+
+</span>
+
+</h2>
+
+<p
+data-en="Use the map below to search for food banks near your location."
+data-es="Utiliza el mapa para encontrar bancos de comida cerca de tu ubicacion.">
+
+Use the map below to search for food banks near your location.
+
+</p>
+
+
+
+<div class="map-container">
+
+<iframe
+title="Map showing nearby food banks"
+src="https://www.google.com/maps?q=food%20bank%20near%20me&output=embed"
+width="100%"
+height="400"
+loading="lazy"
+style="border:0;">
+
+</iframe>
+
+</div>
+
+
+
+<p>
+
+<a href="https://www.google.com/maps/search/food+bank+near+me"
+target="_blank"
+rel="noopener"
+data-en="Open map in Google Maps"
+data-es="Abrir mapa en Google Maps">
+
+Open map in Google Maps
+
+</a>
+
+</p>
+
+</section>
+
+
+
+</main>
+
+
+
+<footer>
+
+<div class="footer-columns">
+
+<div>
+
+<h3>Civic Access Hub</h3>
+
+<p
+data-en="Trusted civic resources for immigrants and families"
+data-es="Recursos civicos confiables para inmigrantes y familias">
+
+Trusted civic resources for immigrants and families
+
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Navigation" data-es="Navegacion">Navigation</h3>
+
+<a href="civic-basics.html"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a><br>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a><br>
+
+<a href="public-resources.html"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a><br>
+
+<a href="about.html"
+data-en="About"
+data-es="Acerca de">About</a>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Contact" data-es="Contacto">Contact</h3>
+
+<a href="https://www.linkedin.com/in/jpochetedmead/"
+target="_blank"
+rel="noopener">
+
+LinkedIn
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<p class="footer-bottom"
+data-en="Educational civic project • Not legal advice • Last Updated 2026"
+data-es="Proyecto civico educativo • No es asesoramiento legal • Ultima actualizacion 2026">
+
+Educational civic project • Not legal advice • Last Updated 2026
+
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>

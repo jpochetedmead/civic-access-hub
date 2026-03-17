@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Civic Basics | Civic Access Hub</title>
+
+<meta name="description" content="Essential civic information for immigrants including voting, citizenship, green cards, and social security.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+
+
+<header>
+
+<h1>
+<i class="fa-solid fa-scale-balanced"></i>
+<span data-en="Civic Basics" data-es="Conceptos Civicos">Civic Basics</span>
+</h1>
+
+<p
+data-en="Essential civic information for newcomers"
+data-es="Informacion civica esencial para nuevos residentes">
+
+Essential civic information for newcomers
+
+</p>
+
+<br>
+
+<select id="langToggle" onchange="toggleLanguage()" aria-label="Language selector">
+
+<option value="en">English</option>
+<option value="es">Español</option>
+
+</select>
+
+<button onclick="toggleDarkMode()" aria-label="Toggle dark mode">🌙</button>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html"
+data-en="Home"
+data-es="Inicio">Home</a>
+
+<a href="civic-basics.html" class="active"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a>
+
+<a href="public-resources.html"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a>
+
+<a href="about.html"
+data-en="About"
+data-es="Acerca de">About</a>
+
+</nav>
+
+
+
+<main>
+
+
+
+<button class="print-btn" onclick="window.print()"
+data-en="Print Resource Guide"
+data-es="Imprimir guia de recursos">
+
+Print Resource Guide
+
+</button>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-check-to-slot"></i>
+
+<span
+data-en="How to Vote"
+data-es="Como votar">
+
+How to Vote
+
+</span>
+
+</h2>
+
+<p
+data-en="Learn how to register to vote, check eligibility requirements, and find official election information."
+data-es="Aprende como registrarte para votar, verificar requisitos de elegibilidad y encontrar informacion oficial sobre elecciones.">
+
+Learn how to register to vote, check eligibility requirements, and find official election information.
+
+</p>
+
+<a href="https://www.vote.gov" target="_blank"
+data-en="Visit Vote.gov"
+data-es="Visitar Vote.gov">
+
+Visit Vote.gov
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-scale-balanced"></i>
+
+<span
+data-en="Rights and Duties of Citizens"
+data-es="Derechos y deberes de los ciudadanos">
+
+Rights and Duties of Citizens
+
+</span>
+
+</h2>
+
+<p
+data-en="Understand the rights, responsibilities, and civic duties that come with becoming a United States citizen."
+data-es="Comprende los derechos, responsabilidades y deberes civicos que vienen con convertirse en ciudadano de Estados Unidos.">
+
+Understand the rights, responsibilities, and civic duties that come with becoming a United States citizen.
+
+</p>
+
+<a href="https://www.uscis.gov/citizenship" target="_blank"
+data-en="USCIS Citizenship Information"
+data-es="Informacion de ciudadania USCIS">
+
+USCIS Citizenship Information
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-id-card"></i>
+
+<span
+data-en="Green Card"
+data-es="Tarjeta de residencia (Green Card)">
+
+Green Card
+
+</span>
+
+</h2>
+
+<p
+data-en="Learn about lawful permanent residency and how to apply for or renew a Green Card."
+data-es="Aprende sobre la residencia permanente legal y como aplicar o renovar una Green Card.">
+
+Learn about lawful permanent residency and how to apply for or renew a Green Card.
+
+</p>
+
+<a href="https://www.uscis.gov/green-card" target="_blank"
+data-en="USCIS Green Card Information"
+data-es="Informacion sobre Green Card">
+
+USCIS Green Card Information
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-user-gear"></i>
+
+<span
+data-en="Work Permit (EAD)"
+data-es="Permiso de trabajo (EAD)">
+
+Work Permit (EAD)
+
+</span>
+
+</h2>
+
+<p
+data-en="Information about employment authorization and how non-citizens can legally work in the United States."
+data-es="Informacion sobre autorizacion de empleo y como los no ciudadanos pueden trabajar legalmente en Estados Unidos.">
+
+Information about employment authorization and how non-citizens can legally work in the United States.
+
+</p>
+
+<a href="https://www.uscis.gov/i-765" target="_blank"
+data-en="Employment Authorization Document (EAD)"
+data-es="Documento de autorizacion de empleo (EAD)">
+
+Employment Authorization Document (EAD)
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-id-badge"></i>
+
+<span
+data-en="Social Security Number"
+data-es="Numero de Seguro Social">
+
+Social Security Number
+
+</span>
+
+</h2>
+
+<p
+data-en="Learn how to apply for a Social Security Number and why it is important for work and government services."
+data-es="Aprende como solicitar un numero de Seguro Social y por que es importante para trabajar y acceder a servicios gubernamentales.">
+
+Learn how to apply for a Social Security Number and why it is important for work and government services.
+
+</p>
+
+<a href="https://www.ssa.gov/ssnumber" target="_blank"
+data-en="Social Security Application"
+data-es="Solicitud de Seguro Social">
+
+Social Security Application
+
+</a>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-car"></i>
+
+<span
+data-en="Driver's License"
+data-es="Licencia de conducir">
+
+Driver's License
+
+</span>
+
+</h2>
+
+<p
+data-en="Learn how driver's license eligibility works for non-citizens and where to find state-specific requirements."
+data-es="Aprende como funciona la elegibilidad para licencia de conducir para no ciudadanos y donde encontrar requisitos especificos por estado.">
+
+Learn how driver's license eligibility works for non-citizens and where to find state-specific requirements.
+
+</p>
+
+<a href="https://www.usa.gov/drivers-license" target="_blank"
+data-en="Driver's License Rules for Non-Citizens"
+data-es="Reglas de licencia de conducir para no ciudadanos">
+
+Driver's License Rules for Non-Citizens
+
+</a>
+
+</section>
+
+
+
+</main>
+
+
+
+<footer>
+
+<div class="footer-columns">
+
+<div>
+
+<h3>Civic Access Hub</h3>
+
+<p
+data-en="Trusted civic resources for immigrants and families."
+data-es="Recursos civicos confiables para inmigrantes y familias.">
+
+Trusted civic resources for immigrants and families.
+
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Resources" data-es="Recursos">Resources</h3>
+
+<a href="civic-basics.html"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a><br>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a><br>
+
+<a href="public-resources.html"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Contact" data-es="Contacto">Contact</h3>
+
+<a href="https://linkedin.com">LinkedIn</a>
+
+</div>
+
+</div>
+
+
+
+<p class="footer-bottom"
+data-en="Built as part of a Civic Engagement Project • Last Updated 2026"
+data-es="Construido como parte de un proyecto de participacion civica • Ultima actualizacion 2026">
+
+Built as part of a Civic Engagement Project • Last Updated 2026
+
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>

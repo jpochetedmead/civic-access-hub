@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Civic Access Hub</title>
+
+<meta name="description" content="Civic Access Hub connects immigrants and families with trusted civic information about voting, work, education, and community resources.">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1><i class="fa-solid fa-building-columns"></i> Civic Access Hub</h1>
+
+<p data-en="Simple civic resources for immigrants and families"
+data-es="Recursos civicos simples para inmigrantes y familias">
+Simple civic resources for immigrants and families
+</p>
+
+<br>
+
+<select id="langToggle" onchange="toggleLanguage()">
+
+<option value="en">English</option>
+<option value="es">Español</option>
+
+</select>
+
+<button onclick="toggleDarkMode()">🌙</button>
+
+</header>
+
+
+
+<nav>
+
+<a href="index.html" class="active"
+data-en="Home"
+data-es="Inicio">Home</a>
+
+<a href="civic-basics.html"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a>
+
+<a href="public-resources.html"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a>
+
+<a href="about.html"
+data-en="About"
+data-es="Acerca de">About</a>
+
+</nav>
+
+
+
+<main>
+
+
+
+<section class="hero">
+
+<h2 data-en="Helping immigrants navigate civic systems"
+data-es="Ayudando a inmigrantes a navegar sistemas civicos">
+
+Helping immigrants navigate civic systems
+
+</h2>
+
+<p data-en="Civic Access Hub connects immigrants and families with trusted civic information about voting, jobs, education, and public services."
+data-es="Civic Access Hub conecta inmigrantes y familias con informacion civica confiable sobre votacion, empleos, educacion y servicios publicos.">
+
+Civic Access Hub connects immigrants and families with trusted civic information about voting, jobs, education, and public services.
+
+</p>
+
+</section>
+
+
+
+<section class="content-section">
+
+<h2>
+
+<i class="fa-solid fa-circle-info"></i>
+
+<span data-en="Why This Site Matters"
+data-es="Por que este sitio es importante">
+
+Why This Site Matters
+
+</span>
+
+</h2>
+
+<p data-en="Many immigrants and first-generation families struggle to find reliable civic information. This site gathers trusted government resources in one place so people can easily find what they need."
+data-es="Muchos inmigrantes y familias de primera generacion tienen dificultad para encontrar informacion civica confiable.">
+
+Many immigrants and first-generation families struggle to find reliable civic information.
+
+</p>
+
+</section>
+
+
+
+<section class="search-bar">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search resources..."
+data-en="Search resources..."
+data-es="Buscar recursos..."
+onkeyup="filterResources()">
+
+</section>
+
+
+
+<section class="cards">
+
+
+
+<div class="card">
+
+<h3>
+
+<i class="fa-solid fa-scale-balanced"></i>
+
+<span data-en="Civic Basics"
+data-es="Conceptos Civicos">
+
+Civic Basics
+
+</span>
+
+</h3>
+
+<p data-en="Voting, citizenship and documents."
+data-es="Votacion, ciudadania y documentos.">
+
+Voting, citizenship and documents.
+
+</p>
+
+<a href="civic-basics.html"
+data-en="View"
+data-es="Ver">View</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+
+<i class="fa-solid fa-briefcase"></i>
+
+<span data-en="Work & Education"
+data-es="Trabajo y Educacion">
+
+Work & Education
+
+</span>
+
+</h3>
+
+<p data-en="Jobs, training and education."
+data-es="Empleos, entrenamiento y educacion.">
+
+Jobs, training and education.
+
+</p>
+
+<a href="work-education.html"
+data-en="View"
+data-es="Ver">View</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+
+<i class="fa-solid fa-handshake-angle"></i>
+
+<span data-en="Public Resources"
+data-es="Recursos Publicos">
+
+Public Resources
+
+</span>
+
+</h3>
+
+<p data-en="Healthcare, food banks and support."
+data-es="Salud, bancos de comida y ayuda comunitaria.">
+
+Healthcare, food banks and support.
+
+</p>
+
+<a href="public-resources.html"
+data-en="View"
+data-es="Ver">View</a>
+
+</div>
+
+
+
+</section>
+
+</main>
+
+
+
+<footer>
+
+<div class="footer-columns">
+
+<div>
+
+<h3>Civic Access Hub</h3>
+
+<p data-en="Community civic resources."
+data-es="Recursos civicos comunitarios.">
+
+Community civic resources.
+
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Links" data-es="Enlaces">Links</h3>
+
+<a href="civic-basics.html"
+data-en="Civic Basics"
+data-es="Conceptos Civicos">Civic Basics</a><br>
+
+<a href="work-education.html"
+data-en="Work & Education"
+data-es="Trabajo y Educacion">Work & Education</a><br>
+
+<a href="public-resources.html"
+data-en="Public Resources"
+data-es="Recursos Publicos">Public Resources</a>
+
+</div>
+
+
+
+<div>
+
+<h3 data-en="Contact" data-es="Contacto">Contact</h3>
+
+<a href="https://linkedin.com">LinkedIn</a>
+
+</div>
+
+</div>
+
+
+<p class="footer-bottom"
+data-en="Built as part of a Civic Engagement Project • Last Updated 2026"
+data-es="Construido como parte de un proyecto de participacion civica • Ultima actualizacion 2026">
+
+Built as part of a Civic Engagement Project • Last Updated 2026
+
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
